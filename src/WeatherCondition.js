@@ -24,15 +24,15 @@ class WeatherCondition extends React.Component {
                 <div className="weather-condition__temp">{unit==="C" ? current.maxCelsius : current.maxFahrenheit} {unit}</div>
                 <div className="weather-condition__desc">
                     <div>
-                        <img src={umberella} />
+                        <img src={umberella} alt="test"/>
                         <span className="citem">{current.humidity}%</span>
                     </div>
                     <div>
-                        <img src={wind} />
+                        <img src={wind} alt="test"/>
                         <span className="citem">{current.windSpeed} km/h</span>
                     </div>
                     <div>
-                        <img src={compass} />
+                        <img src={compass} alt="test"/>
                         <span className="citem">{current.windDirection}</span>
                     </div>
                 </div>

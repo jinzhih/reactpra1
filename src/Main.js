@@ -2,7 +2,7 @@ import React from 'react';
 
 import WeatherCondition from './WeatherCondition';
 import WeatherForecast from './WeatherForecast';
-import { parseWithOptions } from 'date-fns/fp';
+//import { parseWithOptions } from 'date-fns/fp';
 
 function Main(props) {
 	return (
